@@ -1,4 +1,3 @@
-
 public enum VirtualPartyMenu {
 	VIEW_NAME("View the name of the Zoom room"), 
 	VIEW_CODE("View the code of the Zoom room"), 
@@ -8,12 +7,11 @@ public enum VirtualPartyMenu {
 	EXIT("Exiting the PotLuck Party Menu...");
 	
 	private String partyDescription;
-	// private Constructor 
+	
 	private VirtualPartyMenu(String partyDescription){
 		this.partyDescription = partyDescription;
 	}
-	
-	// methods 
+
 	public String getDisplayString(){
 		return this.partyDescription;
 	}
@@ -28,12 +26,10 @@ public enum VirtualPartyMenu {
 	
 	public static String getMenuOptions() {
 		String prompt = "*****\tVirtual Party Menu\t*****";
-
 		for(VirtualPartyMenu choice : VirtualPartyMenu.values()){ //array from the enum
 			prompt += "\n" + (choice.ordinal()) + ": " + choice.getDisplayString();
 		}
 		prompt+="\n**********************************************\n";
-		
 		return prompt;
 	}
 	
