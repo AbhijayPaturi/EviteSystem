@@ -1,9 +1,0 @@
-Guest Registration Status : Guest Email : Guest First Name : Guest Last Name : Guest Password : Guest Invited Parties List
-Registered : abhipaturi@gmail.com : Abhijay : Paturi : Jay123 : []
-Registered : rush@usc.edu : Rush : Pande : Rush123 : [CHRISTMAS on 2012-12-19 at ldsfjlskfjsnvcm,sdnc,scn!!!]
-Registered : ankita@usc.edu : Ankita : Reddy : Ankita123 : []
-Registered : paturi@usc.edu : Abhijay : Paturi : Jay123 : []
-Unregistered : ankita@usc.deu
-Registered : varna@usc.edu : Varna : Kanapurum : Varna123 : []
-Registered : sarayu@gmail.com : Sarayu : Jaladanki : Sarayu123 : []
-Unregistered : sarayu@usc.edu
